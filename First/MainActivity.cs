@@ -6,7 +6,7 @@ using Android.Content;
 
 namespace First
 {
-    [Activity(Label = "Phone Word", MainLauncher = true)]
+    [Activity(Label = "Phone Word", MainLauncher = true, Icon ="@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
